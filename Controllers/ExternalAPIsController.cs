@@ -128,15 +128,10 @@ namespace ExternalAuth.Controllers
             {
                 //normally this is the somewhat basic form to do a get request;
                 //Looking more into http client, you can do a lot more;
-                //for instance, I can attach an httprequest to the client as thus
-
-                //HttpRequestMessage requestMessage = new HttpRequestMessage
-                //{
-                //    Method = HttpMethod.Post
-                    
-                //}
+                
                 
                 using HttpClient client = new HttpClient();
+                
                 //you can also add to the header by choosing the default headers available in a standard http request using
                 //client.DefaultRequestHeaders.Authorization or whatever you want
                 //or adding a custom 
